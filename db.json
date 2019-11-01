@@ -7,7 +7,7 @@
     "invoice_type": "invoice",
     "invoice_period_start_date": "2019-11-01T17:34:33.754Z",
     "invoice_period_end_date": "2019-11-01T17:34:33.754Z",
-    "subtotal": 100
+    "subtotal": 100,
     "total": 120,
     "tax": [
       {
