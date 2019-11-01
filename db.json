@@ -18,6 +18,9 @@
       }
     ],
     "currency": "CAD"
-  }
+  },
+    {
+      "invoice_number": "2"
+    }
   ]
 }
