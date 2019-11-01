@@ -1,23 +1,16 @@
 {
- invoices :[
-  {
-    "invoice_number": "22222",
-    "invoice_date": "2019-11-01",
-    "client_name": "Client",
-    "invoice_type": "Bill",
-    "invoice_period_start_date": "2019-11-01T17:34:33.754Z",
-    "invoice_period_end_date": "2019-11-01T17:34:33.754Z",
-    "subtotal": 100,
-    "total": 120,
-    "tax": [
-      {
-        "tax_name": "tax",
-        "tax_amount": 20,
-        "tax_jurisdiction_type": "fakeTax",
-        "tax_rate": 0
-      }
-    ],
-    "currency": "CAD"
-  }
+posts: [
+{
+id: 1,
+title: "Post 1"
+},
+{
+id: 2,
+title: "Post 2"
+},
+{
+id: 3,
+title: "Post 3"
+}
 ]
 }
