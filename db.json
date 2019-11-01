@@ -1,7 +1,42 @@
 {
-  "comments": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "invoices": [
+     {
+    "invoice_number": "1",
+    "invoice_date": "2019-11-01",
+    "client_name": "client1",
+    "invoice_type": "invoice",
+    "invoice_period_start_date": "2019-11-01T17:34:33.754Z",
+    "invoice_period_end_date": "2019-11-01T17:34:33.754Z",
+    "subtotal": 100
+    "total": 120,
+    "tax": [
+      {
+        "tax_name": "tax",
+        "tax_amount": 20,
+        "tax_jurisdiction_type": "string",
+        "tax_rate": 20
+      }
+    ],
+    "currency": "CAD"
+  },
+   {
+    "invoice_number": "client2",
+    "invoice_date": "2019-11-02",
+    "client_name": "client2",
+    "invoice_type": "string",
+    "invoice_period_start_date": "2019-11-01T17:34:33.754Z",
+    "invoice_period_end_date": "2019-11-01T17:34:33.754Z",
+    "subtotal": 0,
+    "total": 0,
+    "tax": [
+      {
+        "tax_name": "string",
+        "tax_amount": 0,
+        "tax_jurisdiction_type": "string",
+        "tax_rate": 0
+      }
+    ],
+    "currency": "string"
+  }
   ]
 }
