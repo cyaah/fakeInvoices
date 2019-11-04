@@ -39,5 +39,10 @@
     ],
     "currency": "CAD"
     }
+  ],
+  "transactions":[
+   {
+    "transaction_number": 2
+    }
   ]
 }
