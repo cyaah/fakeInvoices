@@ -42,7 +42,63 @@
   ],
   "transactions":[
    {
-    "transaction_number": 2
-    }
+    "invoice_number": "string",
+    "order_item_number": "string",
+    "partner_order_item_number": "string",
+    "order_date": "2019-11-04T17:06:13.129Z",
+    "transaction_date": "2019-11-04T17:06:13.129Z",
+    "transaction_type": "string",
+    "currency": "string",
+    "product_cost_pretax": 0,
+    "product_cost_tax": [
+      {
+        "tax_name": "string",
+        "tax_amount": 0,
+        "tax_jurisdiction_type": "string",
+        "tax_rate": 0
+      }
+    ],
+    "shipping_cost_pretax": 0,
+    "shipping_cost_tax": [
+      {
+        "tax_name": "string",
+        "tax_amount": 0,
+        "tax_jurisdiction_type": "string",
+        "tax_rate": 0
+      }
+    ],
+    "handling_cost_pretax": 0,
+    "handling_cost_tax": [
+      {
+        "tax_name": "string",
+        "tax_amount": 0,
+        "tax_jurisdiction_type": "string",
+        "tax_rate": 0
+      }
+    ],
+    "service_charge_cost_pretax": 0,
+    "service_charge_tax": [
+      {
+        "tax_name": "string",
+        "tax_amount": 0,
+        "tax_jurisdiction_type": "string",
+        "tax_rate": 0
+      }
+    ],
+    "quantity": 0,
+    "note": "string",
+    "metadata": [
+      {
+        "key": "string",
+        "value": "string"
+      }
+    ],
+    "user_defined_fields": [
+      {
+        "key": "string",
+        "value": "string"
+      }
+    ]
+  }
   ]
 }
