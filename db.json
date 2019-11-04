@@ -42,61 +42,61 @@
   ],
   "transactions":[
    {
-    "invoice_number": "string",
-    "order_item_number": "string",
-    "partner_order_item_number": "string",
+    "invoice_number": "1",
+    "order_item_number": "1",
+    "partner_order_item_number": "1",
     "order_date": "2019-11-04T17:06:13.129Z",
     "transaction_date": "2019-11-04T17:06:13.129Z",
-    "transaction_type": "string",
-    "currency": "string",
-    "product_cost_pretax": 0,
+    "transaction_type": "transaction",
+    "currency": "CAD",
+    "product_cost_pretax": 10,
     "product_cost_tax": [
       {
-        "tax_name": "string",
-        "tax_amount": 0,
-        "tax_jurisdiction_type": "string",
-        "tax_rate": 0
+        "tax_name": "tax",
+        "tax_amount": 10,
+        "tax_jurisdiction_type": "tax",
+        "tax_rate": 10
       }
     ],
-    "shipping_cost_pretax": 0,
+    "shipping_cost_pretax": 10,
     "shipping_cost_tax": [
       {
-        "tax_name": "string",
-        "tax_amount": 0,
-        "tax_jurisdiction_type": "string",
-        "tax_rate": 0
+        "tax_name": "tax",
+        "tax_amount": 10,
+        "tax_jurisdiction_type": "tax",
+        "tax_rate": 10
       }
     ],
-    "handling_cost_pretax": 0,
+    "handling_cost_pretax": 10,
     "handling_cost_tax": [
       {
-        "tax_name": "string",
-        "tax_amount": 0,
-        "tax_jurisdiction_type": "string",
-        "tax_rate": 0
+        "tax_name": "tax",
+        "tax_amount": 10,
+        "tax_jurisdiction_type": "tax",
+        "tax_rate": 10
       }
     ],
-    "service_charge_cost_pretax": 0,
+    "service_charge_cost_pretax": 10,
     "service_charge_tax": [
       {
-        "tax_name": "string",
-        "tax_amount": 0,
-        "tax_jurisdiction_type": "string",
-        "tax_rate": 0
+        "tax_name": "tax",
+        "tax_amount": 10,
+        "tax_jurisdiction_type": "tax",
+        "tax_rate": 10
       }
     ],
-    "quantity": 0,
-    "note": "string",
+    "quantity": 10,
+    "note": "note",
     "metadata": [
       {
-        "key": "string",
-        "value": "string"
+        "key": "key",
+        "value": "value"
       }
     ],
     "user_defined_fields": [
       {
-        "key": "string",
-        "value": "string"
+        "key": "key",
+        "value": "value"
       }
     ]
   }
